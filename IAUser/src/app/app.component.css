@@ -1,0 +1,73 @@
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f7fc;
+    padding: 20px;
+  }
+  
+  /* Formulario de entrada */
+  .form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el campo de entrada */
+  .input-field {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    max-width: 100%;
+    transition: border-color 0.3s;
+  }
+  
+  /* Estilo al pasar el cursor sobre el campo de entrada */
+  .input-field:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  /* Estilos para el botón de enviar */
+  .send-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Estilo al pasar el cursor sobre el botón */
+  .send-button:hover {
+    background-color: #357abd;
+  }
+  
+  /* Caja de respuesta */
+  .response-box {
+    padding: 20px;
+    background-color: #e3f2fd;
+    border-left: 5px solid #4a90e2;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Textos dentro de la respuesta */
+  .response-box p {
+    font-size: 16px;
+    color: #333;
+  }
+  

@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="form-group">
+    <input type="text" #input class="input-field" placeholder="Enter your query" />
+    <button (click)="sendRequest(input.value)" class="send-button">Send</button>
+  </div>
+  @if(apiResponse){
+    <div class="response-box">
+      <div [innerHTML]="apiResponse"></div>
+    </div>
+  }
+
+  <router-outlet></router-outlet>
+</div>
