@@ -1,0 +1,80 @@
+# .NET related
+## User-specific files
+.idea/
+.vscode/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]eploy/
+[Dd]ebug/.*.dll
+[Dd]ebug/.*.exe
+[Dd]ebug/.*.pdb
+[Dd]ebug/.*.mdb
+[Dd]ebug/.*.json
+[Dd]ebug/.*.xml
+bin/
+obj/
+
+# ASP.NET Core
+wwwroot/
+
+# Secrets or credentials files
+secrets/
+
+# npm-related
+node_modules/
+
+# Environment files for Angular
+.angular/
+
+# Angular build output
+/dist/
+out-tsc/
+tmp/
+
+# Temporary files from IDEs
+.idea/
+.vscode/
+
+# VSCode settings (optional)
+.settings/
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer Logs
+*.cab
+*.msi
+*.msm
+*.msp
+
+# macOS .DS_Store
+.DS_Store
+
+# Linux swap files
+*~
+
+# JetBrains IDEs
+*.iml
+.idea/
+
+# Angular build artifacts
+/dist/
+/out-tsc/
+/tmp/
+
+# ASP.NET core configurations
+appsettings.json
+appsettings.Development.json
+
+# Log files
+*.log
